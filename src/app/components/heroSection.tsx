@@ -64,9 +64,9 @@ export default function HeroSection() {
             <h1
                 className="text-4xl md:text-6xl/18 text-center font-semibold max-w-2xl mt-5 bg-linear-to-r from-black to-[#748298] text-transparent bg-clip-text">
                 Develop, Deploy & Scale with{" "}
-                <span className="bg-linear-to-b from-indigo-300 to-indigo-600 bg-clip-text text-transparent">ReadyUI</span>.
+                <span className="bg-linear-to-b from-purple-300 to-purple-600 bg-clip-text text-transparent">ReadyUI</span>.
             </h1>
-            <p className="text-slate-600 md:text-base max-md:px-2 text-center max-w-lg mt-3">
+            <p className="text-gray-600 md:text-base max-md:px-2 text-center max-w-lg mt-3">
                 A high-quality, prebuilt UI system that helps you design faster and scale effortlessly.
             </p>
 
