@@ -18,14 +18,14 @@ export default function Navbar() {
                 `}
             </style>
             <nav className="bg-white px-6 md:px-12 lg:px-24 xl:px-40 py-4 flex items-center justify-between relative">
-                <a href="#">
+                <Link href="/" onClick={(e) => { setActive('Home'); }} className="flex items-center gap-2">
                     <span className="text-3xl font-bold text-zinc-800 ">ReadyUI</span>
-                </a>
+                </Link>
                 <div className="hidden md:flex items-center bg-zinc-50 border border-zinc-200 rounded-full px-1 py-1 gap-2">
                     {navItems.map((item) => (
                         <Link
                             key={item}
-                            href={`/${item.toLowerCase()}`}
+                            href={`/${item === 'Home' ? '' : item.toLowerCase()}`}
                             onClick={(e) => {setActive(item); }}
                             className={`px-4 py-1.5 rounded-full text-sm transition-colors ${active === item ? 'bg-white border border-zinc-200 font-medium text-zinc-800' : 'text-zinc-500 hover:text-zinc-400'}`}
                         >
@@ -49,7 +49,7 @@ export default function Navbar() {
                         {navItems.map((item) => (
                             <Link   
                                 key={item}
-                                href={`/${item.toLowerCase()}`}
+                                href={`/${item === 'Home' ? '' : item.toLowerCase()}`}
                                 onClick={(e) => { setActive(item); setMenuOpen(false); }}
                                 className={`px-4 py-2.5 rounded-lg text-sm ${active === item ? 'bg-zinc-50 font-medium text-zinc-800' : 'text-zinc-500 hover:bg-zinc-50'}`}
                             >
