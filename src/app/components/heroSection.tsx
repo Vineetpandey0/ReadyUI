@@ -49,9 +49,9 @@ export default function HeroSection() {
                 </p>
             </div>
 
-            <h1 className="text-4xl md:text-6xl/18 text-center font-semibold max-w-2xl mt-5 bg-gradient-to-r from-black to-gray-500 text-transparent bg-clip-text">
+            <h1 className="text-4xl md:text-6xl/18 text-center font-semibold max-w-2xl mt-5 bg-linear-to-r from-black to-gray-500 text-transparent bg-clip-text">
                 Develop, Deploy & Scale with{" "}
-                <span className="bg-gradient-to-b from-purple-400 to-purple-600 bg-clip-text text-transparent">
+                <span className="bg-linear-to-b from-purple-400 to-purple-600 bg-clip-text text-transparent">
                     ReadyUI
                 </span>
             </h1>
