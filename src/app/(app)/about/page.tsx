@@ -6,7 +6,7 @@ export default function page() {
 
     return (
 
-        <>
+        <div className='bg-white text-black'>
 
             <style>{`
 
@@ -114,7 +114,7 @@ export default function page() {
 
             </div>
 
-        </>
+        </div>
 
     );
 

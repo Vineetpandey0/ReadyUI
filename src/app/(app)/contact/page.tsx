@@ -282,7 +282,7 @@ export const ContactForm = () => {
         * { font-family: 'Poppins', sans-serif; }
       `}</style>
 
-      <section className="flex items-center justify-center flex-col py-20 px-4">
+      <section className="flex items-center bg-white justify-center flex-col py-20 px-4">
         <h1 className="font-medium text-4xl md:text-[52px] text-slate-800 text-center">Get in Touch</h1>
         <p className="text-base text-zinc-500 max-w-sm text-center mt-4">
           Have a question about ReadyUI? We're happy to help you find the right plan or answer anything else.

@@ -102,7 +102,7 @@ export default function page() {
                     }`
                 }
             </style>
-            <section className='flex items-center justify-center flex-col py-20 px-4'>
+            <section className='flex items-center bg-white justify-center flex-col py-20 px-4'>
                 <h1 className='font-medium text-4xl md:text-[52px] text-slate-800 text-center'>Flexible Pricing Plans</h1>
                 <p className='text-base/7 text-zinc-500 max-w-sm text-center mt-4'>Choose a plan that supports your business growth and digital goals.</p>
                 <div className='mt-6 flex bg-zinc-100 p-1.5 rounded-full'>
