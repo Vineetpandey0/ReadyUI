@@ -79,7 +79,7 @@ export default function Footer() {
                             <div>
                                 <h3 className="font-medium text-sm mb-4">Resources</h3>
                                 <ul className="space-y-3 text-sm text-neutral-800">
-                                    <li><Link href="#" className="hover:text-neutral-700">PrebuiltUI</Link></li>
+                                    <li><Link href="#" className="hover:text-neutral-700">ReadyUI</Link></li>
                                     <li><Link href="#" className="hover:text-neutral-700">Templates</Link></li>
                                     <li><Link href="#" className="hover:text-neutral-700">Components</Link></li>
                                     <li><Link href="#" className="hover:text-neutral-700">Blogs</Link></li>
