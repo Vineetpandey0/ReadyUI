@@ -11,7 +11,6 @@ export default function Navbar() {
 
     const navItems = ['Home', 'Templates', 'Pricing', 'About', 'Contact'];
 
-    // Map path -> nav item
     useEffect(() => {
         if (pathname === "/") {
             setActive("Home");
@@ -52,10 +51,9 @@ export default function Navbar() {
                 ))}
             </div>
 
-            {/* CTA */}
-            <button className="hidden md:flex items-center gap-2.5 bg-linear-to-r from-zinc-950 to-zinc-500 text-zinc-50 hover:text-zinc-200 text-sm font-medium pl-5 pr-2 py-2 rounded-full">
-                Get started
-            </button>
+            <Link href="https://github.com/vineetpandey0/readyui" target="_blank" className="hidden md:flex items-center gap-2.5 bg-linear-to-r from-zinc-950 to-zinc-500 text-zinc-50 hover:text-zinc-200 text-sm font-medium pl-5 pr-2 py-2 rounded-full">
+                Github
+            </Link>
 
             {/* Mobile Toggle */}
             <button
