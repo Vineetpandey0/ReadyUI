@@ -461,5 +461,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 <p align="center">
   Built with ❤️ by the ReadyUI team &nbsp;·&nbsp;
-  <a href="https://readyui.com">readyui.com</a>
+  <a href="https://github/vineetpandey0/readyui">readyui.com</a>
 </p>
