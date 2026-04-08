@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link'
-import React from 'react'
 
 export default function Footer() {
     return (
@@ -79,11 +78,9 @@ export default function Footer() {
                             <div>
                                 <h3 className="font-medium text-sm mb-4">Resources</h3>
                                 <ul className="space-y-3 text-sm text-neutral-800">
-                                    <li><Link href="#" className="hover:text-neutral-700">ReadyUI</Link></li>
-                                    <li><Link href="#" className="hover:text-neutral-700">Templates</Link></li>
+                                    <li><Link href="/" className="hover:text-neutral-700">ReadyUI</Link></li>
+                                    <li><Link href="/templates" className="hover:text-neutral-700">Templates</Link></li>
                                     <li><Link href="#" className="hover:text-neutral-700">Components</Link></li>
-                                    <li><Link href="#" className="hover:text-neutral-700">Blogs</Link></li>
-                                    <li><Link href="#" className="hover:text-neutral-700">Store</Link></li>
                                 </ul>
                             </div>
 
@@ -92,12 +89,6 @@ export default function Footer() {
                                 <h3 className="font-medium text-sm mb-4">Company</h3>
                                 <ul className="space-y-3 text-sm text-neutral-800">
                                     <li><Link href="#" className="hover:text-neutral-700">About</Link></li>
-                                    <li><Link href="#" className="hover:text-neutral-700">Vision</Link></li>
-                                    <li className="flex items-center gap-2">
-                                        <Link href="#" className="hover:text-neutral-700">Careers</Link>
-                                        <span className="text-[11px] px-2 py-0.5 rounded-full bg-neutral-50 border border-neutral-400 text-neutral-700">HIRING</span>
-                                    </li>
-                                    <li><Link href="#" className="hover:text-neutral-700">Privacy policy</Link></li>
                                     <li><Link href="#" className="hover:text-neutral-700">Contact Us</Link></li>
                                 </ul>
                             </div>
